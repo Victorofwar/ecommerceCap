@@ -13,7 +13,7 @@ import Footer from './components/Footer';
 
 
 const App = () => {
-  return <div className='overflow-hidden'>
+  return ( <div className='overflow-hidden'>
     <Router>
       <Header />
     <Routes>
@@ -25,7 +25,8 @@ const App = () => {
     <Sidebar />
     <Footer />
   </Router>
-  </div>;
+  </div>
+  )
 };
 
 export default App;

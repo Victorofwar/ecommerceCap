@@ -11,7 +11,10 @@ const CartItem = ({item}) => {
     </Link>
     <div>
       <div>
-        <Link to={`/product/${id}`}> {title} </Link>
+        <Link to={`/product/${id}`}
+        className='text-sm uppercase font-medium max-w- 
+        [240px] text-primary hover:underline'
+        > {title} </Link>
       </div>
     </div>
   </div>
