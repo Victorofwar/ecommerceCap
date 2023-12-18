@@ -36,7 +36,7 @@ text-sm'>
     <div 
     onClick={() => decreaseAmount(id)}
     className='flex-1 flex justify-center items-center 
-    cursor-pointer'>
+    cursor-pointer h-full'>
     <IoMdRemove />
     </div>
     <div className='h-full flex justify-center
